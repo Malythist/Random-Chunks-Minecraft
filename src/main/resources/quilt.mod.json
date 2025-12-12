@@ -1,0 +1,36 @@
+{
+    "schema_version": 1,
+    "quilt_loader": {
+        "group": "${group}",
+        "id": "randomchunks",
+        "version": "${version}",
+        "metadata": {
+            "name": "Random Chunks",
+            "description": "Chunk will change to random block when you enter!",
+            "contributors": {
+                "Malythist": "Owner"
+            },
+            "contact": {},
+            "icon": "assets/example_mod/icon.png"
+        },
+        "intermediate_mappings": "net.fabricmc:intermediary",
+        "entrypoints": {
+            "init": "net.quiltmc.users.malythist.randomchunks.RandomChunksMod"
+        },
+        "depends": [
+            {
+                "id": "quilt_loader",
+                "versions": ">=0.19.1"
+            },
+            {
+                "id": "quilted_fabric_api",
+                "versions": ">=7.0.2"
+            },
+            {
+                "id": "minecraft",
+                "versions": ">=1.20"
+            }
+        ]
+    },
+    "mixin": "randomchunks.mixins.json"
+}
