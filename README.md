@@ -12,4 +12,4 @@
 
 The mod is turned off by default so that you can play other worlds without changes. Type command `/randomchunks start` to enable mod. If you want to disable it use command `/randomchunks stop`.
 
-Use command `/randomdrops info` to see actual information about mod usage in your world
+Use command `/randomchunks info` to see actual information about mod usage in your world
