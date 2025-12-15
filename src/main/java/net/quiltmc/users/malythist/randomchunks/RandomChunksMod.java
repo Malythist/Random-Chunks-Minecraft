@@ -226,7 +226,9 @@ public class RandomChunksMod implements ModInitializer {
 		Blocks.ICE, Blocks.SUGAR_CANE, Blocks.NETHER_SPROUTS, Blocks.PITCHER_PLANT,
 		Blocks.PISTON_HEAD, Blocks.PINK_PETALS, Blocks.BUBBLE_COLUMN, Blocks.END_ROD,
 		Blocks.SMALL_DRIPLEAF, Blocks.CACTUS, Blocks.JIGSAW, Blocks.SCAFFOLDING,
-		Blocks.MOVING_PISTON
+		Blocks.MOVING_PISTON, Blocks.DEAD_BUSH, Blocks.POINTED_DRIPSTONE, Blocks.BEACON,
+		Blocks.BARREL, Blocks.CHEST, Blocks.TRAPPED_CHEST, Blocks.CARTOGRAPHY_TABLE,
+		Blocks.JACK_O_LANTERN
 	);
 
 	private static final Set<Class<? extends Block>> FORBIDDEN_CLASSES = Set.of(
